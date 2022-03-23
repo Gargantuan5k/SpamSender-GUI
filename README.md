@@ -79,7 +79,7 @@ Also note that if you do not set 'Code 1 (Text)', the message spammed will defau
 
 ## How does it work?
 
-The window and GUI have been created using Tkinter, a simple Python GUI library. The actual spammer uses a common method of forcibly spamminmg text using PyAutoGUI's built-in 'write()' and 'press()' functions, which simulate actual key presses of each letter in the message, and 'Enter' to send it.
+The window and GUI have been created using Tkinter, a simple Python GUI library. The actual spammer uses a common method of forcibly spamming text using PyAutoGUI's built-in 'write()' and 'press()' functions, which simulate actual key presses of each letter in the message, and 'Enter' to send it.
 
 
 You may read the source code at spamsender-gui.py to look at the inner workings of this app.
